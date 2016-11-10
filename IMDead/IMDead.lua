@@ -12,20 +12,20 @@ function IMDead.OnEvent()
 		if (UnitIsDead("player")) then
 			x = math.random(5);
 			if ( x <= 1 ) then
-				PlaySoundFile("IMDead.wav");
+				PlaySoundFile("Interface\\AddOns\\IMDead\\Data\\IMDead1.ogg");
 			elseif ( x <= 2 ) then
-				PlaySoundFile("IMDead2.wav");
+				PlaySoundFile("Interface\\AddOns\\IMDead\\Data\\IMDead2.ogg");
 			elseif ( x <= 3 ) then
-				PlaySoundFile("IMDead3.wav");
+				PlaySoundFile("Interface\\AddOns\\IMDead\\Data\\IMDead3.ogg");
 			elseif ( x <= 4 ) then
-				PlaySoundFile("IMDead4.wav");
+				PlaySoundFile("Interface\\AddOns\\IMDead\\Data\\IMDead4.ogg");
 			else
-				PlaySoundFile("IMDead5.wav");
+				PlaySoundFile("Interface\\AddOns\\IMDead\\Data\\IMDead5.ogg");
 			end
 		end
 	end
 	if(event=="PLAYER_LEVEL_UP") then
-		PlaySoundFile("Live2Win.wav");
+		PlaySoundFile("Live2Win.ogg");
 	end
 
 end
