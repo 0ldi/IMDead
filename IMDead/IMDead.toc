@@ -1,0 +1,7 @@
+## Interface: 4196
+## Title: IMDead (I am Dead)
+## Author: Czarisyn
+## Notes: Plays a sound when you die...
+## OptionalDeps:
+## Dependencies:
+IMDead.xml
